@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MD Study Room Content Package Schema",
+  "description": "Defines the payload structure for remote study content packages (past papers, chapters, MCQs)",
+  "type": "object",
+  "required": [
+    "id",
+    "contentType",
+    "schemaVersion",
+    "contentVersion",
+    "subjectId",
+    "subjectTitle",
+    "academicLevel",
+    "sourceMetadata"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable author-defined identifier matching the manifest entry"
+    },
+    "contentType": {
+      "type": "string",
+      "enum": ["past-paper", "chapter", "mcq-bank", "syllabus-revision", "errata"]
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [1]
+    },
+    "contentVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "subjectId": {
+      "type": "string"
+    },
+    "subjectTitle": {
+      "type": "string"
+    },
+    "academicLevel": {
+      "type": "string"
+    },
+    "chapterIndex": {
+      "type": "integer"
+    },
+    "chapterTitle": {
+      "type": "string"
+    },
+    "yearsCovered": {
+      "type": "string"
+    },
+    "sourceMetadata": {
+      "type": "object",
+      "required": ["institution"],
+      "properties": {
+        "institution": { "type": "string" },
+        "examinationSessions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "expertVerification": { "type": "string" },
+        "fabricationNotice": { "type": "string" }
+      }
+    },
+    "totalQuestions": {
+      "type": "integer"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "num", "text", "marks"],
+        "properties": {
+          "id": { "type": "string" },
+          "num": { "type": "integer" },
+          "text": { "type": "string" },
+          "marks": { "type": "string" },
+          "yearRaw": { "type": "string" },
+          "yearsGroup": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "chapterIndex": { "type": "integer" },
+          "chapterTitle": { "type": "string" }
+        }
+      }
+    }
+  }
+}

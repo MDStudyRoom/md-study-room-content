@@ -1,0 +1,191 @@
+{
+  "id": "biopharm-pastpaper-ch1-definitions",
+  "contentType": "past-paper",
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "subjectId": "biopharm",
+  "subjectTitle": "Pharmaceutics IV (Biopharmaceutics & Pharmacokinetics)",
+  "academicLevel": "Pharm-D 4th Professional",
+  "chapterIndex": 1,
+  "chapterTitle": "DEFINITIONS & TERMINOLOGIES",
+  "yearsCovered": "2015–2025",
+  "sourceMetadata": {
+    "institution": "University of the Punjab & Pharmacy Council of Pakistan",
+    "examinationSessions": [
+      "A/2015",
+      "A/2016",
+      "2nd A/2016",
+      "A/2017",
+      "2nd A/2017",
+      "2nd A/2018",
+      "A/2019",
+      "A/2020",
+      "A/2024",
+      "2nd A/2024",
+      "A/2025",
+      "A/2025 SKT",
+      "2nd A/2025"
+    ],
+    "expertVerification": "Archived examination papers compiled without speculative modification",
+    "fabricationNotice": "All questions are genuine verbatim examination questions with original marks and session metadata"
+  },
+  "totalQuestions": 13,
+  "questions": [
+    {
+      "id": "biopharm-ch1-q1",
+      "num": 1,
+      "text": "Define the following terminologies: (2×5=10) (A/2015) i) Pharmaceutical equivalent ii) Population pharmacokinetics iii) Mammillary model iv) Absolute bioavailability v) Bioequivalent products",
+      "marks": "2×5=10 Marks",
+      "yearRaw": "A/2015",
+      "yearsGroup": [
+        "2015 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q2",
+      "num": 2,
+      "text": "Define the following terms: (5×1=5) (A/2016) i) Closed compartment ii) Area under the first moment of curve iii) Disposition kinetics iv) Steady rate concentration v) Pharmaceutical equivalents",
+      "marks": "5×1=5 Marks",
+      "yearRaw": "A/2016",
+      "yearsGroup": [
+        "2016 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q3",
+      "num": 3,
+      "text": "Define the following terms: (5×1=5) (2nd A/2016) i) Persistence factor ii) Therapeutic equivalents iii) Drug disposition iv) Bioequivalence v) Mammillary model",
+      "marks": "5×1=5 Marks",
+      "yearRaw": "2nd A/2016",
+      "yearsGroup": [
+        "2016 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q4",
+      "num": 4,
+      "text": "Define the following: (5×1=5) (A/2017) i) Therapeutic alternatives ii) Bioequivalence iii) Open compartment iv) Catenary model v) Pharmacokinetics",
+      "marks": "5×1=5 Marks",
+      "yearRaw": "A/2017",
+      "yearsGroup": [
+        "2017 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q5",
+      "num": 5,
+      "text": "Define the following: (5×1=5) (2nd A/2017) i) Therapeutic equivalents ii) Close compartment iii) Pharmaceutical alternatives iv) Mammillary model v) Pharmaceutical substitution",
+      "marks": "5×1=5 Marks",
+      "yearRaw": "2nd A/2017",
+      "yearsGroup": [
+        "2017 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q6",
+      "num": 6,
+      "text": "Define the following terminologies: (5×2=10) (2nd A/2018) i) Biopharmaceutics ii) Therapeutic equivalent iii) Loss factor iv) Steady state concentration v) Area under the first moment curve (AUMC)",
+      "marks": "5×2=10 Marks",
+      "yearRaw": "2nd A/2018",
+      "yearsGroup": [
+        "2018 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q7",
+      "num": 7,
+      "text": "Define the following terminologies: (5×1=5) (A/2019) i) Pharmacokinetics ii) Relative bioavailability iii) Mamillary model iv) Mean residence time v) Dissolution",
+      "marks": "5×1=5 Marks",
+      "yearRaw": "A/2019",
+      "yearsGroup": [
+        "2019 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q8",
+      "num": 8,
+      "text": "Define the followings: (5×2=10) (A/2020) i) Biopharmaceutics ii) Absolute bioavailability iii) Clearance iv) Therapeutic equivalents v) Biotransformation",
+      "marks": "5×2=10 Marks",
+      "yearRaw": "A/2020",
+      "yearsGroup": [
+        "2020 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q9",
+      "num": 9,
+      "text": "Write short notes on factors influencing drug variability. (8) (A/2024)",
+      "marks": "8 Marks",
+      "yearRaw": "A/2024",
+      "yearsGroup": [
+        "2024 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q10",
+      "num": 10,
+      "text": "Define the following Terms: (10) (2nd A/2024) i. Biopharmaceutics ii. Therapeutic Alternatives iii. In-Vitro In-Vivo Correlation iv. Non-Linear Pharmacokinetics v. First Pass Effect",
+      "marks": "10 Marks",
+      "yearRaw": "2nd A/2024",
+      "yearsGroup": [
+        "2024 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q11",
+      "num": 11,
+      "text": "Give brief answer of the followings: (4 marks each) (A/2025) i. Therapeutic equivalent with examples ii. Plasma level time curve and its parameters iii. Biological Half-life and its determination iv. Dosage considerations in hepatic disease v. Noyes Whitney equation with reference to dissolution",
+      "marks": "4 marks each",
+      "yearRaw": "A/2025",
+      "yearsGroup": [
+        "2025 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q12",
+      "num": 12,
+      "text": "Give brief answer of the followings: (4 marks each) (A/2025 SKT) i. What is the difference between solubility and dissolution ii. Significance of measuring plasma drug concentration iii. Volume of distribution and its significance iv. Physiologic Model to calculate Drug Clearance v. Relationship b/w protein binding and volume of distribution",
+      "marks": "4 marks each",
+      "yearRaw": "A/2025 SKT",
+      "yearsGroup": [
+        "2025 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    },
+    {
+      "id": "biopharm-ch1-q13",
+      "num": 13,
+      "text": "Give brief answer of the followings: (4 marks each) (2nd A/2025) i. Pharmaceutical equivalent with examples ii. Drug performance parameters iii. Trapezoidal method for determination of AUC iv. Level-A In-vitro – In-vivo Correlation v. Patient related factors affecting drug absorption",
+      "marks": "4 marks each",
+      "yearRaw": "2nd A/2025",
+      "yearsGroup": [
+        "2025 Exam"
+      ],
+      "chapterIndex": 1,
+      "chapterTitle": "DEFINITIONS & TERMINOLOGIES"
+    }
+  ]
+}

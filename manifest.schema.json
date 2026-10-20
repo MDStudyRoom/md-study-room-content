@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MD Study Room Central Update Manifest Schema",
+  "description": "Defines the canonical structure for remote update manifests consumed by MD Study Room v1.9+",
+  "type": "object",
+  "required": [
+    "manifestSchemaVersion",
+    "appId",
+    "minAppVersion",
+    "latestAppVersion",
+    "items"
+  ],
+  "properties": {
+    "manifestSchemaVersion": {
+      "type": "integer",
+      "enum": [1],
+      "description": "Manifest schema version integer (currently 1)"
+    },
+    "appId": {
+      "type": "string",
+      "const": "md-study-room",
+      "description": "Unique identifier for the MD Study Room application"
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp of manifest publication"
+    },
+    "minAppVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+",
+      "description": "Minimum client app version required to ingest items from this manifest"
+    },
+    "latestAppVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+",
+      "description": "Latest released desktop/web app version"
+    },
+    "releaseNotes": {
+      "type": "string",
+      "description": "Optional human-readable release notes for this publication"
+    },
+    "appDownloadUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional URL where users can download the updated standalone HTML or package"
+    },
+    "items": {
+      "type": "array",
+      "description": "List of available content packages",
+      "items": {
+        "$ref": "#/definitions/ContentUpdateItem"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "ContentUpdateItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "subjectId",
+        "contentVersion",
+        "title",
+        "fileUrl",
+        "fileSizeBytes",
+        "sha256"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Stable author-defined identifier (e.g. biopharm-pastpaper-ch1-definitions)"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "chapter",
+            "mcq-bank",
+            "past-paper",
+            "syllabus-revision",
+            "errata"
+          ],
+          "description": "Content category classification"
+        },
+        "subjectId": {
+          "type": "string",
+          "description": "Subject identifier matching Pharm-D curriculum (e.g. biopharm, clinical, industrial, quality, hospital)"
+        },
+        "contentVersion": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Monotonically increasing version number for this content item"
+        },
+        "title": {
+          "type": "string",
+          "description": "Human-readable title displayed in the update inspector"
+        },
+        "changeLog": {
+          "type": "string",
+          "description": "Concise summary of updates, additions, or errata in this release"
+        },
+        "fileUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://",
+          "description": "Direct HTTP/HTTPS download URL for the authentic JSON payload"
+        },
+        "fileSizeBytes": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Exact byte size of the downloaded payload"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "Lower-case 64-character SHA-256 cryptographic checksum"
+        },
+        "isMandatory": {
+          "type": "boolean",
+          "description": "Indicates whether the update is mandatory or recommended"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
