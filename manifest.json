@@ -1,0 +1,22 @@
+{
+  "manifestSchemaVersion": 1,
+  "appId": "md-study-room",
+  "publishedAt": "2026-10-20T10:00:00.000Z",
+  "minAppVersion": "1.9.0",
+  "latestAppVersion": "1.9.0",
+  "releaseNotes": "Phase 2A Central Content Repository inaugural package: Authentic Biopharmaceutics & Pharmacokinetics past-paper questions (2015–2025 examinations).",
+  "items": [
+    {
+      "id": "biopharm-pastpaper-ch1-definitions",
+      "type": "past-paper",
+      "subjectId": "biopharm",
+      "contentVersion": 1,
+      "title": "Biopharmaceutics & Pharmacokinetics — Definitions & Terminologies Past Papers (2015–2025)",
+      "changeLog": "Inaugural verified release of Chapter 1 past examination questions from University of the Punjab examinations.",
+      "fileUrl": "https://raw.githubusercontent.com/MDStudyRoom/md-study-room-content/main/content/past-papers/biopharm-pastpaper-ch1-definitions.json",
+      "fileSizeBytes": 7037,
+      "sha256": "e0b4dd9c7315ccc0bd8001957b2655cc39b046bd81a1e724828cfab7b5fa4201",
+      "isMandatory": false
+    }
+  ]
+}
